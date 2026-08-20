@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products</title>
+  <link rel="stylesheet" href="css/gridstyle.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>AURA <span class="dot">•</span></h1>
+  </header>
+
+  <nav class="main-nav">
+    <a href="index.html">Home</a>
+    <a href="product.html" class="active">Products</a>
+  </nav>
+
+  <main class="page-body">
+
+    <div class="content-col">
+
+      <section class="block">
+        <h2>Our Catalog</h2>
+        <p>Browse products and detailed specs</p>
+        <img src="images/product1.jpg" alt="Signature Headphone">
+      </section>
+
+      <section class="block">
+        <h2>Product Name</h2>
+        <p>Short description, price, and product link (or view details).</p>
+        <img src="images/product2.jpg" alt="Available in various colors">
+      </section>
+
+    </div>
+
+    <aside class="sidebar-col">
+      <form class="signup-form">
+        <h3>สมัครสมาชิก</h3>
+
+        <div class="field">
+          <label for="fname">ชื่อ</label>
+          <input type="text" id="fname" name="fname" placeholder="ชื่อจริง">
+        </div>
+
+        <div class="field">
+          <label for="lname">นามสกุล</label>
+          <input type="text" id="lname" name="lname" placeholder="นามสกุล">
+        </div>
+
+        <div class="field">
+          <label for="email">อีเมล</label>
+          <input type="email" id="email" name="email" placeholder="name@example.com">
+        </div>
+
+        <div class="field">
+          <label for="phone">เบอร์โทรศัพท์</label>
+          <input type="tel" id="phone" name="phone" placeholder="0xx-xxx-xxxx">
+        </div>
+
+        <div class="field">
+          <label for="address">ที่อยู่</label>
+          <input type="text" id="address" name="address" placeholder="ที่อยู่จัดส่ง">
+        </div>
+
+        <div class="field">
+          <label for="dob">วันเกิด</label>
+          <input type="date" id="dob" name="dob">
+        </div>
+
+        <div class="field">
+          <label>เพศ</label>
+          <div class="radio-row">
+            <label><input type="radio" name="gender" value="male"> ชาย</label>
+            <label><input type="radio" name="gender" value="female"> หญิง</label>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="interest">ความสนใจ</label>
+          <select id="interest" name="interest">
+            <option value="">-- เลือก --</option>
+            <option value="headphone">หูฟัง</option>
+            <option value="speaker">ลำโพง</option>
+            <option value="accessory">อุปกรณ์เสริม</option>
+          </select>
+        </div>
+
+        <div class="checkbox-row">
+          <input type="checkbox" id="agree" name="agree">
+          <label for="agree">ยอมรับเงื่อนไขการใช้งาน</label>
+        </div>
+
+        <button type="submit" class="submit-btn">สมัครสมาชิก</button>
+
+        <p class="form-footnote">ข้อมูลของคุณจะถูกเก็บเป็นความลับ</p>
+      </form>
+    </aside>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 AURA Acoustics Inc. All rights reserved.</p>
+    <div class="payment-icons">
+      <span>VISA</span>
+      <span>MC</span>
+      <span>JCB</span>
+      <span>QR</span>
+    </div>
+  </footer>
+
+</body>
+</html>
